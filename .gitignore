@@ -1,0 +1,63 @@
+# Node & Composer dependencies
+/node_modules
+/vendor
+
+# Environment & Configuration Files
+.env
+.env.*.local
+.env.backup
+.env.production
+
+# Laravel Specific
+/public/storage
+/storage/*.key
+/auth.json
+/storage/oauth-private.key
+/storage/oauth-public.key
+/storage/framework
+/storage/logs
+/storage/pail
+/bootstrap/cache
+
+# Build & Cache Files
+.phpactor.json
+/.phpunit.cache
+/.phpunit.result.cache
+/.vscode
+/.idea
+/.husky
+.vite
+
+# Livewire Temporary Files
+/livewire-tmp
+
+# Tailwind & Build Artifacts
+public/css
+public/js
+public/mix-manifest.json
+public/hot
+public/build
+
+# IDE & Editor Specific
+*.log
+*.sqlite
+*.sqlite3
+*.swp
+*~ 
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+/.zed
+/.fleet
+/.nova
+
+# Composer & NPM lock files (optional, but recommended for open-source projects)
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/composer.lock
+/package-lock.json
+/pnpm-lock.yaml
+/yarn.lock
