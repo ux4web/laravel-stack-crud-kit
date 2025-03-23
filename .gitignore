@@ -17,7 +17,6 @@
 /storage/framework
 /storage/logs
 /storage/pail
-/bootstrap/cache
 
 # Build & Cache Files
 .phpactor.json
